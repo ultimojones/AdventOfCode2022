@@ -23,7 +23,7 @@
             for (int i = 0; i < 240; i++)
             {
                 var pos = i % 40;
-                Console.Write(Math.Abs(signals[i] - pos) <= 1 ? '#' : '.');
+                Console.Write(Math.Abs(signals[i] - pos) <= 1 ? '█' : '.');
 
                 if (pos == 39) Console.WriteLine();
             }
